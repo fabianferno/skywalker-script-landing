@@ -1,0 +1,82 @@
+.hero {
+  min-height: 50vh;
+  background-image: url(herobg.jpg);
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousel-item {
+  height: 500px;
+}
+.carousel-item img {
+  height: 500px;
+}
+
+.hero-tagline {
+  font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+  .hero-tagline {
+    font-size: 5rem;
+  }
+}
+
+.hero-content {
+  font-size: 2rem;
+}
+
+.intro-icon {
+  font-size: 15rem;
+  margin: 0px auto;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.parallax {
+  /* The image used */
+  opacity: 0.9;
+  background-image: url("pray_blackbg.jpg");
+
+  /* Set a specific height */
+  height: 150;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  letter-spacing: 6px;
+  color: rgb(255, 255, 255);
+  line-height: 400%;
+  padding-left: 10%;
+  opacity: 1;
+  font-size: 150%;
+}
+
+#deception {
+  line-height: normal;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: normal;
+  font-size: smaller;
+  text-align: justify;
+  padding-left: 5%;
+  opacity: 1;
+  padding-right: 15%;
+}
+
+.navbar-custom {
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar-tcolor {
+  color: rgb(172, 0, 0);
+}
