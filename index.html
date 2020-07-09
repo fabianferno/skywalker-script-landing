@@ -14,72 +14,77 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
 
     <title>Skywalker's Script</title>
   </head>
   <body>
-
     <!-- navbar start-->
-    <div class="justify-content-center">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
-        <a class="navbar-brand navbar-tcolor"  href="#">Skywalker's Script</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg d-flex navbar-dark bg-danger fixed-top">
+      <a class="navbar-brand navbar-tcolor" href="#">Skywalker's Script</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
-          </ul>
-          
-          <!--
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Blog <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Instagram</a>
+              <a class="dropdown-item" href="#">Youtube</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Wordpress</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Follow Me</a
+            >
+          </li>
+        </ul>
+
         <form class="form-inline my-2 my-lg-0">
           <input
             class="form-control mr-sm-2"
@@ -87,13 +92,16 @@
             placeholder="Search"
             aria-label="Search"
           />
-          <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">
+          <button
+            class="btn btn-outline-danger btn-dark my-2 my-sm-0"
+            type="submit"
+          >
             Search
           </button>
-        </form>-->
-        </div>
-      </nav>
-    </div>
+        </form>
+      </div>
+    </nav>
+
     <!-- navbar end-->
 
     <!-- carousal start-->
@@ -127,7 +135,9 @@
           <img src="carousal2.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
             <h5 align="left">THE CRIMSON CRY</h5>
-            <p align="left">I heard a cry. The grim of my world. What am I doing here?</p>
+            <p align="left">
+              I heard a cry. The grim of my world. What am I doing here?
+            </p>
           </div>
         </div>
 
@@ -163,35 +173,67 @@
     </div>
     <!-- carousal end-->
 
-
     <!-- hero start-->
-    <section class="hero d-flex align-items-center ">
-      <div class="container text-center">
-        <span class="text-black mt-5 font-weight-bold hero-tagline">
+    <section class="hero d-flex align-items-center">
+      <div class="container py-5 text-center">
+        <span class="text-danger mt-5 font-weight-bold hero-tagline">
           Hello, I write blog.
-          <p class="text-black mt-2 font-weight-light hero-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, veritatis illo, vel aspernatur assumenda, nemo beatae cupiditate eveniet dolores quibusdam tenetur expedita dolorem at ex! At reiciendis est nostrum in.
+          <p class="text-white mt-4 font-size font-weight-normal hero-content">
+            I “May” have missed something. Yes, it wasn’t just substantial. I
+            come across gratitude periodically. The last thing I remember was
+            this hot fumes of agony. Now, it’s just a tender breeze of cold
+            comfortness. I’ve never felt such satiable moments and in my life.
+            Everything speaks to me metaphorically.
           </p>
-          <button class="btn btn-danger btn-lg mt-5 mt-md-5 mb-5">Scroll Down</button>
+          <button class="btn btn-danger btn-lg mt-5 mt-md-5 mb-5">
+            Scroll Down
+          </button>
         </span>
       </div>
     </section>
     <!-- hero end-->
 
-
     <!-- parralax start-->
-    <section class="parallax d-flex justify-content-center">
-      <h1>
-        THE DECEPTION
-        <p id="deception">
-              I want to be anything but a “Procrastinator”. And these days prove to me that I always end up being the man of the last hour. I wanted life to show me something that involved truth. But everything I see around me isn’t really what it seems to be. Life showed me one thing over and over. Promises are often never a tautology. You conclude on one thing and that thing spontaneously engulfs in to something you dread the most. Pain stopped hurting me. It made me stronger, smarter and wiser.
-  I must think. The purulence of my current state of mind swings heavily like a well lit chandelier in the hall of my heart’s bedrock. I tried to be someone who I wanted to be. But life taught me that “I am what I am” in the hard way. I found a way back to my tomb. I wandered these streets a thousand times before. But here I am, to tell you that, when I finally meet my love, I’ll walk a thousand more. A cloud surrounds me, just to remind me that I am just a synapse in this multiverse. But realizations can be weird. Its subtle and good as long its not so late. Your surroundings touch you. And some touch you deeply. The sudden ecstasy of fulfillment can be felt anytime and anywhere. Life teaches me many things. A simple stare at the wall in my toilet gives me hope in myself. I happened to watch a horror movie. People were losing their shit. And amidst the adrenaline rush, something struck me hard. It was a bullet from my past. It was a feeling, equivalent to a sudden carnal craving after a month stranded in the seas. The jump scare pulled me back to the scene. All those evil spirits showed me one thing. There’s always a black dot in a white page, period. “The good turns out to be the bad, the bad turns out to be the good, and the ugly remains ugly.” Choose what are you gonna be. A thinker or a Do-er. 
-  Hoping for your Best
-  Super Skywalker
-        </p>    
+    <section class="parallax d-flex justify-content-center text-center">
+      <div>
+        <h1 class="text-danger">
+          THE DECEPTION
+        </h1>
+        <div class="deception">
+          <p class="text-white text-justify">
+            I want to be anything but a “Procrastinator”. And these days prove
+            to me that I always end up being the man of the last hour. I wanted
+            life to show me something that involved truth. But everything I see
+            around me isn’t really what it seems to be. Life showed me one thing
+            over and over. Promises are often never a tautology. You conclude on
+            one thing and that thing spontaneously engulfs in to something you
+            dread the most. Pain stopped hurting me. It made me stronger,
+            smarter and wiser. I must think. The purulence of my current state
+            of mind swings heavily like a well lit chandelier in the hall of my
+            heart’s bedrock. I tried to be someone who I wanted to be. But life
+            taught me that “I am what I am” in the hard way. I found a way back
+            to my tomb. I wandered these streets a thousand times before. But
+            here I am, to tell you that, when I finally meet my love, I’ll walk
+            a thousand more. A cloud surrounds me, just to remind me that I am
+            just a synapse in this multiverse. But realizations can be weird.
+            Its subtle and good as long its not so late. Your surroundings touch
+            you. And some touch you deeply. The sudden ecstasy of fulfillment
+            can be felt anytime and anywhere. Life teaches me many things. A
+            simple stare at the wall in my toilet gives me hope in myself. I
+            happened to watch a horror movie. People were losing their shit. And
+            amidst the adrenaline rush, something struck me hard. It was a
+            bullet from my past. It was a feeling, equivalent to a sudden carnal
+            craving after a month stranded in the seas. The jump scare pulled me
+            back to the scene. All those evil spirits showed me one thing.
+            There’s always a black dot in a white page, period. “The good turns
+            out to be the bad, the bad turns out to be the good, and the ugly
+            remains ugly.” Choose what are you gonna be. A thinker or a Do-er.
+            Hoping for your Best - Super Skywalker
+          </p>
+        </div>
+      </div>
     </section>
     <!--parralax end-->
-    
 
     <!--intro start-->
     <section class="py-5">
@@ -203,16 +245,19 @@
               intro
             </span>
             <span class="h3 font-weight-bold text-white d-block">
-
               Lorem ipsum dolor sit amet consectetur adipisicing elit!
-
             </span>
             <p class="text-danger lead mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vitae, quaerat cumque debitis commodi ratione nisi soluta, dolorem praesentium rem nemo voluptates repellat aliquam! Dolor excepturi voluptatem cumque placeat exercitationem!
-
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              vitae, quaerat cumque debitis commodi ratione nisi soluta, dolorem
+              praesentium rem nemo voluptates repellat aliquam! Dolor excepturi
+              voluptatem cumque placeat exercitationem!
             </p>
             <p class="font-italic text-white">
-              &quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam molestiae reprehenderit excepturi amet exercitationem atque autem sint perspiciatis! Impedit dolorum obcaecati reprehenderit possimus omnis nulla fugit sunt et officia at?&quot;
+              &quot;Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ullam molestiae reprehenderit excepturi amet exercitationem atque
+              autem sint perspiciatis! Impedit dolorum obcaecati reprehenderit
+              possimus omnis nulla fugit sunt et officia at?&quot;
             </p>
             <span class="h5 font-weight-bold text-secondary">- John Doe</span>
           </div>
@@ -220,7 +265,7 @@
         <!--col left end-->
         <!--col right start-->
         <div class="col-12 col-md-6 mt-4 mt-md-0">
-          <img src="intro.jpg" alt="Intro" class="img-fluid">
+          <img src="intro.jpg" alt="Intro" class="img-fluid" />
         </div>
         <!--col right end-->
       </div>
@@ -232,45 +277,216 @@
           <i class="fas fa-satellite-dish intro-icon mt-4"></i>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
           </div>
         </div>
         <div class="card bg-dark">
           <i class="fas fa-meteor intro-icon mt-4"></i>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
           </div>
         </div>
         <div class="card bg-dark">
           <i class="fas fa-rocket intro-icon mt-4"></i>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
           </div>
         </div>
       </div>
     </div>
     <!-- intro end-->
 
+    <!-- Testimonial start-->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center text-white font-weight-bold mb-4">
+          Testimonials
+        </h2>
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide bg-danger">
+              <div class="card mb-3 mt-3 bg-dark" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="testimonial/t1.jpg" class="card-img" alt="..." />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body text-white">
+                      <h5 class="card-title text-left">Elizabeth Victoria</h5>
+                      <p class="card-text text-left">
+                        Like fireflies, born to glow in the darkness.
+                      </p>
+                      <p class="card-text text-left">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide bg-danger">
+              <div class="card mb-3 mt-3 bg-dark" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="testimonial/t2.jpg" class="card-img" alt="..." />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body text-white">
+                      <h5 class="card-title text-left">Angeline Abby</h5>
+                      <p class="card-text text-left">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <p class="card-text text-left">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide bg-danger">
+              <div class="card mb-3 mt-3 bg-dark" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="testimonial/t3.jpg" class="card-img" alt="..." />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body text-white">
+                      <h5 class="card-title text-left">Angeline Abby</h5>
+                      <p class="card-text text-left">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <p class="card-text text-left">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide bg-danger">
+              <div class="card mb-3 mt-3 bg-dark" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="testimonial/t4.jpg" class="card-img" alt="..." />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body text-white">
+                      <h5 class="card-title text-left">Angeline Abby</h5>
+                      <p class="card-text text-left">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <p class="card-text text-left">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide bg-danger">
+              <div class="card mb-3 mt-3 bg-dark" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="testimonial/t5.jpg" class="card-img" alt="..." />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body text-white">
+                      <h5 class="card-title text-left">Angeline Abby</h5>
+                      <p class="card-text text-left">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <p class="card-text text-left">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide bg-danger">
+              <div class="card mb-3 mt-3 bg-dark" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="testimonial/t6.jpg" class="card-img" alt="..." />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body text-white">
+                      <h5 class="card-title text-left">Angeline Abby</h5>
+                      <p class="card-text text-left">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <p class="card-text text-left">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-
-    <!-- parralax start-->
-    <section class="parallax d-flex justify-content-center">
-      <h1>
-        THE DECEPTION
-        <p id="deception">
-              I want to be anything but a “Procrastinator”. And these days prove to me that I always end up being the man of the last hour. I wanted life to show me something that involved truth. But everything I see around me isn’t really what it seems to be. Life showed me one thing over and over. Promises are often never a tautology. You conclude on one thing and that thing spontaneously engulfs in to something you dread the most. Pain stopped hurting me. It made me stronger, smarter and wiser.
-  I must think. The purulence of my current state of mind swings heavily like a well lit chandelier in the hall of my heart’s bedrock. I tried to be someone who I wanted to be. But life taught me that “I am what I am” in the hard way. I found a way back to my tomb. I wandered these streets a thousand times before. But here I am, to tell you that, when I finally meet my love, I’ll walk a thousand more. A cloud surrounds me, just to remind me that I am just a synapse in this multiverse. But realizations can be weird. Its subtle and good as long its not so late. Your surroundings touch you. And some touch you deeply. The sudden ecstasy of fulfillment can be felt anytime and anywhere. Life teaches me many things. A simple stare at the wall in my toilet gives me hope in myself. I happened to watch a horror movie. People were losing their shit. And amidst the adrenaline rush, something struck me hard. It was a bullet from my past. It was a feeling, equivalent to a sudden carnal craving after a month stranded in the seas. The jump scare pulled me back to the scene. All those evil spirits showed me one thing. There’s always a black dot in a white page, period. “The good turns out to be the bad, the bad turns out to be the good, and the ugly remains ugly.” Choose what are you gonna be. A thinker or a Do-er. 
-  Hoping for your Best
-  Super Skywalker
-        </p>    
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
     </section>
-    <!--parralax end-->
-    
+    <!-- testimonial end-->
+
+    <!-- footer start-->
+    <footer class="py-5">
+      <div class="py-2 text-center text-danger">
+        &copy; 2020 Skywalker's Script | All rights reserved.
+      </div>
+    </footer>
+    <!-- footer end-->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
@@ -288,5 +504,18 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>

@@ -6,6 +6,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .carousel-item {
   height: 500px;
 }
@@ -15,6 +16,33 @@
 
 .hero-tagline {
   font-size: 3rem;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -55,22 +83,12 @@ h1 {
   letter-spacing: 6px;
   color: rgb(255, 255, 255);
   line-height: 400%;
-  padding-left: 10%;
   opacity: 1;
   font-size: 150%;
 }
 
 #deception {
-  line-height: normal;
-  color: rgb(255, 255, 255);
-  font-style: normal;
-  font-weight: 200;
-  letter-spacing: normal;
-  font-size: smaller;
-  text-align: justify;
-  padding-left: 5%;
-  opacity: 1;
-  padding-right: 15%;
+  padding-left: 10%;
 }
 
 .navbar-custom {
